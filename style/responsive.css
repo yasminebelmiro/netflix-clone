@@ -1,0 +1,48 @@
+@media screen and (max-width:600px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header .container .logo{
+        font-size: 24px;
+    }
+
+    header nav a {
+        font-size: 12px;
+    }
+
+    .filme-principal{
+        height: auto;
+        background-size: cover;
+    }
+
+    .top10{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .top10 img{
+        width: 20px;
+    }
+
+    .botoes .botao{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .filme-principal .titulo{
+        width: 300px;
+    }
+
+    .descricao{
+        display: none;
+    }
+
+    .subtitulo{
+        font-size: 15px;
+    }
+}
+
+
+    

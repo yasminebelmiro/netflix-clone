@@ -1,0 +1,126 @@
+:root{
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    color: #fff;
+}    
+
+/*Menu*/
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+header .container .logo{
+    color: var(--vermelho);
+    font-size: 40px;
+    margin: 40px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header nav a , 
+header nav i{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*Filme principal*/
+
+.filme-principal {
+    font-size: 10px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("https://image.tmdb.org/t/p/original/imlTCObfzISogbvcwB1dokoXAIc.jpg");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px;
+}
+
+.filme-principal .container{
+    margin-right: 40%;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 20px;
+    font-size: 18px;
+    padding-right: 40%;
+}
+
+.filme-principal .titulo{
+    width: 400px;
+}
+
+.top10{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.top10 img{
+    width: 35px;
+    margin-right: 5px;
+}
+
+.botoes .botao{
+    background-color: #fff;
+    border: none;
+    color: #141414;
+    padding: 10px 40px;
+    border-radius: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.botoes .botao:hover{
+   background-color: rgba(193, 186, 186, 0.7);
+}
+
+.botoes .botao i{
+    margin-right: 5px;
+}
+
+/*carrosel*/
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.subtitulo{
+    margin: 15px;
+    font-size: 30px;
+
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
+
+
